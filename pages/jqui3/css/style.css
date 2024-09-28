@@ -1,0 +1,90 @@
+body{
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+	text-transform: uppercase;
+}
+
+
+header{
+	background-color: lightgray;
+}
+.menu ul li{
+	padding: 0 20px;
+}
+.menu ul li a{
+	font-size: 20px;
+	font-weight: 600;
+}
+.cmn_padding{
+	padding: 50px 0;
+}
+
+
+/*example1*/
+#zoom-button {
+      width: 55px;
+    }
+    #fontname-button,
+    #fontsize-button {
+      width: 45px;
+    }
+    #forecolor-button {
+      width: 50px;
+    }
+    #hilitecolor-button {
+      width: 70px;
+    }
+    #bold {
+      font-weight: bold;
+    }
+    #italic {
+      font-style: italic;
+    }
+    #underline {
+      text-decoration: underline;
+    }
+    .toolbar {
+      font-size: .75em;
+    }
+    #page {
+      width: 440px;
+      left: 50%;
+      position: relative;
+      margin-left: -226px;
+      height: 450px;
+      border: 1px solid #888;
+      box-shadow: 7px 7px 3px #ccc;
+      font-size: 11px;
+      font-family: "Lucida Grande";
+      zoom: 100%;
+      padding: 5px;
+      white-space: pre-line;
+      overflow: scroll;
+    }
+    .wrap {
+      width: 588px;
+    }
+
+/*    example4*/
+.ui-menu { 
+	width: 150px; 
+}
+
+/*example5*/
+fieldset {
+      border: 0;
+      margin-left: 300px;
+    }
+    label {
+      display: block;
+      margin: 20px 0 0 0;
+    }
+ 
+    #circle {
+      float: left;
+      background: yellow;
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+    }

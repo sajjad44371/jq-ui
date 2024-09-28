@@ -1,0 +1,109 @@
+body{
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+	text-transform: uppercase;
+}
+
+
+header{
+	background-color: lightgray;
+}
+.menu ul li{
+	padding: 0 20px;
+}
+.menu ul li a{
+	font-size: 20px;
+	font-weight: 600;
+}
+.cmn_padding{
+	padding: 100px 0 100px;
+}
+
+
+/*example1*/
+#draggable { 
+	width: 300px;
+	height: 300px;
+	padding: 0.5em;
+	color: teal;
+	background-color: pink;
+	border-radius: 30px;
+}
+
+/*example2*/
+#draggable2 { 
+	width: 250px; 
+	height: 250px; 
+	padding: 0.5em; 
+	float: left; 
+	margin: 10px 10px 10px 0; 
+}
+  #droppable { 
+  	width: 300px; 
+  	height: 300px; 
+  	padding: 0.5em; 
+  	float: left; 
+  	margin: 10px; 
+}
+
+/*example3*/
+#draggable3 { 
+ 	width: 16em; 
+ 	padding: 0 1em; 
+}
+#draggable3 ul li { 
+	margin: 1em 0; 
+	padding: 0.5em 0; 
+} * html #draggable3 ul li { height: 1%; }
+#draggable3 ul li span.ui-icon { float: left; }
+#draggable3 ul li span.count { font-weight: bold; 
+}
+
+/*example4*/
+#resizable { 
+	width: 150px; 
+	height: 150px; 
+	padding: 0.5em; 
+}
+#resizable h3 { 
+	text-align: center; 
+	margin: 0; 
+}
+.ui-resizable-helper { 
+	border: 1px dotted gray; 
+}
+
+/*example5*/
+#feedback { 
+	font-size: 1.4em; 
+}
+  #selectable .ui-selecting { 
+  	background: #FECA40; 
+}
+  #selectable .ui-selected { 
+  	background: #F39814; 
+  	color: white; 
+  }
+  #selectable { 
+  	list-style-type: none; 
+  	margin: 0; 
+  	padding: 0; 
+  	width: 60%; 
+  }
+  #selectable li { 
+  	margin: 3px; 
+  	padding: 2.4em; 
+  	font-size: 1.4em; 
+  	height: 18px; 
+  }
+
+
+
+
+footer{
+	margin-top: 200px;
+	font-size: 16px;
+	font-weight: 400;
+	background-color: lightgray;
+}

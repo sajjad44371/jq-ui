@@ -1,0 +1,102 @@
+body{
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+	text-transform: uppercase;
+}
+
+
+header{
+	background-color: lightgray;
+}
+.menu ul li{
+	padding: 0 20px;
+}
+.menu ul li a{
+	font-size: 20px;
+	font-weight: 600;
+}
+.cmn_padding{
+	padding: 50px 0;
+}
+
+
+/*example1*/
+#eq > span {
+    height:120px; 
+    float:left; 
+    margin:15px
+  }
+
+/*example2*/
+#map {
+    width:500px;
+    height:500px;
+  }
+
+/*  example4*/
+.ui-tooltip, .arrow:after {
+    background: black;
+    border: 2px solid white;
+  }
+  .ui-tooltip {
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+    font: bold 14px "Helvetica Neue", Sans-Serif;
+    text-transform: uppercase;
+    box-shadow: 0 0 7px black;
+  }
+  .arrow {
+    width: 70px;
+    height: 16px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -35px;
+    bottom: -16px;
+  }
+  .arrow.top {
+    top: -16px;
+    bottom: auto;
+  }
+  .arrow.left {
+    left: 20%;
+  }
+  .arrow:after {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: -20px;
+    width: 25px;
+    height: 25px;
+    box-shadow: 6px 5px 9px -9px black;
+    transform: rotate(45deg);
+  }
+  .arrow.top:after {
+    bottom: -20px;
+    top: auto;
+  }
+
+/*  example5*/
+.toggler { 
+	width: 500px; 
+	height: 200px; 
+	position: relative; 
+}
+    #button { 
+    	padding: .5em 1em; 
+    	text-decoration: none; 
+    }
+    #effect { 
+    	width: 240px; 
+    	height: 170px; 
+    	padding: 0.4em; 
+    	position: relative; 
+    	background: #fff; 
+    }
+    #effect h3 { 
+    	margin: 0; 
+    	padding: 0.4em; 
+    	text-align: center; 
+    }

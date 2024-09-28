@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!--font links-->
+
+    <!--css links-->
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <!--icon links-->
+    <title>jq UI-1</title>
+  </head>
+
+  <body>
+  
+    <header>
+      <div class="container">
+        
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#c_nav" aria-controls="c_nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse menu" id="c_nav">
+              <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../../index.html">jq 50 example</a>
+               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="jqui1.html">jq UI 1 example</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../jqui2/jqui2.html">jq UI 2 example</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../jqui3/jqui3.html">jq UI 3 example</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../jqui4/jqui4.html">jq UI 4 example</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../jqui5/jqui5.html">jq UI 5 example</a>
+              </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </header>
+
+    
+    <section class="jqui_example text-center">
+      <div class="container">
+        
+        <!-- example1 -->
+        <div class="example1 cmn_padding">
+          <div id="draggable" class="ui-widget-content">
+            <p>Drag me around</p>
+          </div>
+        </div>
+        <hr>
+
+        <!-- example2 -->
+        <div class="example2 cmn_padding">
+          <div id="draggable2" class="ui-widget-content">
+            <p>Drag me to my target</p>
+          </div>
+           
+          <div id="droppable" class="ui-widget-header">
+            <p>Drop here</p>
+          </div>
+          </div>
+        <hr>
+
+        <!-- example3 -->
+        <div class="example3 cmn_padding">
+          <div id="draggable3" class="ui-widget ui-widget-content">
+ 
+          <p>Drag me to trigger the chain of events.</p>
+         
+          <ul class="ui-helper-reset">
+            <li id="event-start" class="ui-state-default ui-corner-all"><span class="ui-icon ui-icon-play"></span>"start" invoked <span class="count">0</span>x</li>
+            <li id="event-drag" class="ui-state-default ui-corner-all"><span class="ui-icon ui-icon-arrow-4"></span>"drag" invoked <span class="count">0</span>x</li>
+            <li id="event-stop" class="ui-state-default ui-corner-all"><span class="ui-icon ui-icon-stop"></span>"stop" invoked <span class="count">0</span>x</li>
+          </ul>
+        </div>
+        </div>
+        <hr>
+
+        <!-- example4 -->
+        <div class="example4 cmn_padding">
+          <div id="resizable" class="ui-widget-content">
+          <h3 class="ui-widget-header">Animate</h3>
+        </div>
+        </div>
+        <hr>
+
+        <!-- example5 -->
+        <div class="example5 cmn_padding">
+          <ol id="selectable">
+            <li class="ui-widget-content">Item 1</li>
+            <li class="ui-widget-content">Item 2</li>
+            <li class="ui-widget-content">Item 3</li>
+            <li class="ui-widget-content">Item 4</li>
+            <li class="ui-widget-content">Item 5</li>
+            <li class="ui-widget-content">Item 6</li>
+            <li class="ui-widget-content">Item 7</li>
+          </ol>
+        </div>
+
+
+       </div>
+    </section>
+
+
+
+   
+
+    <!--js links-->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

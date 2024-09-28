@@ -1,0 +1,248 @@
+body{
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+	text-transform: uppercase;
+}
+
+
+header{
+	background-color: lightgray;
+}
+.menu ul li{
+	padding: 0 20px;
+}
+.menu ul li a{
+	font-size: 20px;
+	font-weight: 600;
+}
+
+
+.btn_c{
+	width: 130px;
+	height: 50px;
+	font-weight: 700;
+	background-color: pink;
+	border-radius: 15px;
+}
+.btn_c:hover{
+	background-color: white;
+}
+
+/*example2*/
+.ex2 {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    float: left;
+  }
+  .p_ex2 {
+    clear: left;
+    font-weight: bold;
+    font-size: 16px;
+    color: blue;
+    margin: 0 10px;
+    padding: 2px;
+  }
+
+/*example5*/
+ #block1, #block2 {
+    background-color: #bca;
+    width: 200px;
+    height: 1.1em;
+    text-align: center;
+    border: 2px solid green;
+    margin: 3px;
+    font-size: 14px;
+  }
+
+/*example6*/
+.block {
+    position: relative;
+    background-color: #abc;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin: 5px;
+  }
+
+/*example7*/
+.h_ex7{
+	cursor: pointer;
+}
+.p_ex7{
+	display: none;
+}
+
+/*example8*/
+.p_ex8 {
+    background: #dad;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/*example9*/
+.ex9 {
+    margin: 3px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 0px;
+    top: 30px;
+    background: green;
+    display: none;
+  }
+.ex9.newcolor {
+    background: blue;
+}
+
+/*example10*/
+.ex10 {
+    color: red;
+    cursor: pointer;
+  }
+#ex_10 {
+    margin: 3px;
+    width: 80px;
+    display: none;
+    height: 80px;
+    float: left;
+  }
+  #one {
+    background: #f00;
+  }
+  #two {
+    background: #0f0;
+  }
+  #three {
+    background: #00f;
+  }
+
+/*example10*/
+.p_ex10{
+    cursor: pointer;
+  }
+.p_ex10.hilite {
+    background: yellow;
+  }
+.ex10 {
+    display: inline;
+    color: red;
+  }
+
+/*example11*/
+.box,button {
+    float: left;
+    margin: 5px 10px 5px 0;
+}
+.box {
+    height: 80px;
+    width: 80px;
+    background: #090;
+}
+#log {
+    clear: left;
+}
+
+/*example12*/
+.example12{
+	margin-top: 70px;
+	position: relative;
+}
+.ex12, .p_ex12 {
+    width: 80px;
+    height: 40px;
+    top: 0;
+    margin: 0;
+    position: absolute;
+    padding-top: 8px;
+}
+.p_ex12 {
+    background: #fcc;
+    text-align: center;
+}
+.ex12 {
+    background: blue;
+}
+
+/*example13*/
+.example13{
+	margin-top: 150px;
+}
+
+/*example14*/
+.example14{
+	margin: 50px 0 50px;
+}
+#ex14 {
+    background: #b977d1;
+    margin: 3px;
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+#ex14.still {
+    background: #345;
+    width: 5px;
+}
+#ex14.hider {
+    display: none;
+}
+.s_ex14 {
+    color: red;
+}
+.p_ex14 {
+    clear: left;
+}
+
+/*example15*/
+.example15{
+	padding: 100px 0 100px;
+}
+ .ex15 {
+    color: blue;
+  }
+  .p_ex15 {
+    color: green;
+  }
+  .s_ex15 {
+    color: red;
+    display: none;
+  }
+
+/*  example16*/
+ .btn_ex16 {
+    margin: 10px;
+  }
+  .ex16 {
+    color: blue;
+    font-weight: bold;
+  }
+  .s_ex16 {
+    color: red;
+  }
+
+/*  example18*/
+.ex18 {
+    color: red;
+  }
+
+/*  example19*/
+ .p_ex19 {
+    margin: 0;
+    color: blue;
+  }
+  .ex19 .p_ex19 {
+    margin-left: 10px;
+  }
+  .s_ex19 {
+    color: red;
+  }
+
+
+footer{
+	margin-top: 200px;
+	font-size: 16px;
+	font-weight: 400;
+	background-color: lightgray;
+}

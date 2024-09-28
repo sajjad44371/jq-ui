@@ -1,0 +1,45 @@
+body{
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+	text-transform: uppercase;
+}
+
+
+header{
+	background-color: lightgray;
+}
+.menu ul li{
+	padding: 0 20px;
+}
+.menu ul li a{
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.example{
+	padding: 50px 0 50px;
+}
+
+
+/*example1*/
+ #sortable { 
+ 	list-style-type: none; 
+ 	margin: 0; 
+ 	padding: 0; 
+ 	width: 60%; 
+ }
+  #sortable li { 
+  	margin: 0 3px 3px 3px; 
+  	padding: 2.4em; 
+  	padding-left: 1.5em; 
+  	font-size: 1.4em; 
+  	height: 18px; 
+  }
+  #sortable li span { 
+  	position: absolute; 
+  	margin-left: -1.3em; 
+  }
+
+
+
